@@ -6,14 +6,14 @@ int strcount (char* arr);
 int main(void)
 {
 	char str[10];
-	printf("¹®ÀÚ¿­À» ÀÔ·ÂÇÏ¼¼¿ä : ");
+	printf("ë¬¸ìì—´ì„ ì…ë ¥í•˜ì„¸ìš” : ");
 	scanf("%s", str);
 	int length = strcount(str);
-	printf("ÀÔ·ÂµÈ ¹®ÀÚ¿­Àº\n");
-	printf("%s\n", str);
-	printf("ÀÔ´Ï´Ù.");
+	printf("ì…ë ¥ëœ ë¬¸ìì—´ì€\n");
+	printf("\"%s\"\n", str);
+	printf("ì…ë‹ˆë‹¤.");
 
-	printf("ÀÔ·ÂµÈ ¹®ÀÚ¿­ÀÇ ±æÀÌ = %d", length);
+	printf("ì…ë ¥ëœ ë¬¸ìì—´ì˜ ê¸¸ì´ = %d", length);
 	
 	return 0;
 }
