@@ -21,7 +21,7 @@ int main(void)
 
 int address(int a) {
 
-	char *ptr[5] = { "Korea", "Seoul", "Mapo", "Jongno", "152¹øÁö 2/3" };
+	char *ptr[5] = { "Korea", "Seoul", "Mapo", "Jongno", "152ë²ˆì§€ 2/3" };
 	printf("%s\n", ptr[a]);
 
 	return 0;
