@@ -1,20 +1,21 @@
 #include <stdio.h>
-//¸é1 -> ÇĞ»ı1, ¸é2 -> ÇĞ»ı2, Áß´ÜÁ¡Àº 8¹ø ÁÙ¿¡
+//ë©´1 -> í•™ìƒ1, ë©´2 -> í•™ìƒ2, ì¤‘ë‹¨ì ì€ 8ë²ˆ ì¤„ì—
 void main()
 {
 	int i, j, k;
 	char student[2][3][20];
 	for (i = 0; i < 2; i++) {
-		printf("\n ÇĞ»ı % dÀÇ ÀÌ¸§ : ", i + 1);
+		printf("í•™ìƒ % dì˜ ì´ë¦„ : ", i + 1);
 		gets(student[i][0]);
-		printf("\n ÇĞ»ı % dÀÇ ÇĞ°ú : ", i + 1);
+		printf("í•™ìƒ % dì˜ í•™ê³¼ : ", i + 1);
 		gets(student[i][1]);
-		printf("\n ÇĞ»ı % dÀÇ ÇĞ¹ø : ", i + 1);
+		printf("í•™ìƒ % dì˜ í•™ë²ˆ : ", i + 1);
 		gets(student[i][2]);
+		printf("\n");
 	}
 
 	for (i = 0; i < 2; i++) {
-		printf("\n\nÇĞ»ı%d", i + 1);
+		printf("\n\ní•™ìƒ%d", i + 1);
 		for (j = 0; j < 3; j++) {
 			printf("\n\t");
 			for (k = 0; student[i][j][k] != '\0'; k++) {
