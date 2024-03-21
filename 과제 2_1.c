@@ -9,11 +9,11 @@ int main(void)
 	printf("문자열을 입력하세요 : ");
 	scanf("%s", str);
 	int length = strcount(str);
-	printf("입력된 문자열은\n");
+	printf("\n입력된 문자열은\n");
 	printf("\"%s\"\n", str);
-	printf("입니다.");
+	printf("입니다.\n");
 
-	printf("입력된 문자열의 길이 = %d", length);
+	printf("\n입력된 문자열의 길이 = %d", length);
 	
 	return 0;
 }
