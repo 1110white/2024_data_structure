@@ -11,10 +11,10 @@ int main()
 void hanoi(int n, char a, char b, char c)
 {
 	if (n == 1)
-		printf("%c¿¡¼­ ¿ø¹İ 1¸¦(À») %c·Î ¿Å±è\n", a, c);
+		printf("%cì—ì„œ ì›ë°˜ 1ë¥¼(ì„) %cë¡œ ì˜®ê¹€\n", a, c);
 	else {
+		hanoi(n - 1, a, c, b);
+		printf("%cì—ì„œ ì›ë°˜ %dë¥¼(ì„) %cë¡œ ì˜®ê¹€\n", a, n, c);
 		hanoi(n - 1, b, a, c);
-		printf("%c¿¡¼­ ¿ø¹İ %d¸¦(À») %c·Î ¿Å±è\n", a, n, c);
-		hanoi(n - 1, c, b, a);
 	}
 }
